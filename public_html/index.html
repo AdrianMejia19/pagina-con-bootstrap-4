@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cursos Online Uniojeda</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../../public/img/logo.png" type="image/x-icon">
+    <meta title="Cursos Online y Diplomados Uniojeda">
+    <meta  name="description" content="Cursos online,diplomados web, curso de programacion web, curso de contaduria con excel, curso de gestion de proyectos,curso de seguridad informatica">
+    <meta name="keywords" content="Cursos,displomados,excel,web,programacion,seguridad informatica,proyectos,contaduria,gestion">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="views/css/bootstrap.min.css">
+    <link rel="stylesheet" href="views/css/estilos.css">
+    <link rel="stylesheet" href="views/css/all.min.css">
+  </head>
+  <body>
+
+    <section id="header" >
+      <div class="container-faluid">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" >
+          <div class="container">
+              <a class="navbar-brand " href="#"> ADRIAN MEJIA </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link nav_bg_color" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link nav_bg_color" href="#">Aprender</a>
+                  </li>
+                <li class="nav-item active">
+                      <a class="nav-link nav_bg_color" href="#">Cursos</a>
+                  </li>					    
+                  <li class="nav-item active">
+                      <a class="nav-link nav_bg_color" href="#">Contacto</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="main">
+      <div class="container">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-3 logo">
+              <img src="public/img/007-birrete.png" alt="logo">
+            </div>
+            <div class="col-md-9">
+              <h2 class="animated fadeInDown" style="animation-delay: 1s">Bienvenido a Cursos Online </h2>
+              <p  class="animated fadeInRight col-lg-12" style="animation-delay: 2s" >Una nueva manera de extender tu conomiciento mas alla del aula presencial de clase, Inscribete en nuestros cursos para ampliar tu conocimientos y ser competitivo en los mercados laborales</p>   
+              <a href="#formulario" data-toggle="modal" class="btn btn-primary">Ver Información</a>
+
+              
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="formulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLongTitle">Formulario de Inscripcion</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid"> 
+              <div class="form-group">            
+                <label for="modal-title" class="h5">Nombre Completo</label>
+                <input type="text" class="form-control" required autocomplete="off" placeholder="Enter your name" name="nombre">
+              </div>
+                <div class="form-group">     
+                  <label for="modal-title" class="h5">Correo Electronico</label>             
+                  <input type="" class="form-control" placeholder="Enter your email" required autocomplete="off"  name="email">
+                </div>
+
+                
+             
+                  <div class="form-group">  
+                    <label for="modal-title" class="h5">Direccion Fiscal</label>
+                    <input type="text" class="form-control" placeholder="Enter your number" required autocomplete="off"  name="numero">
+                    <br>
+                    <div class="container">
+                      <label for="modal-title" class="h5">Sexo</label>
+                      <br>
+                      <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+                      <input type="radio" name="sexo" value="mujer" /> Mujer
+
+                    </div>
+                   
+                  </div>
+
+                  <div class="form-group container-fluid">
+                    <div class="row-cols ">
+                      <div>
+                        <label for="modal-title" class="h5">Numero de Telefono</label>
+                        <input type="text" class="form-control col-7" placeholder="Enter your number" required autocomplete="off"  name="numero">
+                      </div>
+                      <br>
+                      <div>
+                        <label for="so" class="h5">Curso a tomar</label> <br/>
+                        <select class="dropdown-item" style="border:#ddd solid 1px;" name="so">
+                          <option value="" selected="selected">- selecciona -</option>
+                          <option value="Contabilidad con Excel">Contabilidad con Excel</option>
+                          <option value="Programacion web">Programacion web</option>
+                          <option value="Gestión de Proyectos">Gestión de Proyectos</option>
+                          <option value="Seguridad Informatica">Seguridad Informatica</option>
+                        </select>
+                    </div>
+                      <br>
+                    
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="" class="h5">Mensaje</label>
+                    <textarea class="form-control" placeholder="Enter your messange" rows="4"  name="mensaje"></textarea>
+                  </div>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" onclick="javascript:alert('Informacion enviada pronto sera contactado al correo que proporciono');" class="btn btn-secondary" data-dismiss="modal">Enviar</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <section>
+      <div class="bg_light">
+            <div class="container-md-8 color-seccion">
+              <br>
+              <br>
+              <div class="row mb-5">
+                  <div class="col-md-12 mx-auto text-center">
+                    <h2 class="titulo" style="font-weight: bold; color: #fff;">Beneficios del Aprendizaje Online</h2>
+                    <hr>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 ">
+                         <div class="text-center cartcolor1">
+                          <i class="fas fa-chalkboard-teacher" style="font-size: 4em;"></i>
+                        <h3>Interactividad en las Aulas</h3>
+                        <p style="font-size: 1.4em;">Una Manera mas intuitiva de impartir clases a nuestros estudiantes de forma dinamica</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="text-center cartcolor1">
+                      <i class="fas fa-graduation-cap" style="font-size: 4em;"></i>
+                        <h3>Certficados Digitales</h3>
+                        <p style="font-size: 1.4em;">Los certificados digitales permiten demostrar que lograste completar un aprendizaje completo y es portable a donde vayas.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="text-center cartcolor1">
+                      <i class="far fa-file-alt" style="font-size: 4em;"></i>
+                        <h3>Mateiral Didactico Digital</h3>
+                        <p style="font-size: 1.4em;"> Nuestro material se adapta a las necesitades de conocimiento mas demandado en los mercados laborales.</p>
+                  </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="text-center cartcolor1">
+                        <i class="fas fa-globe" style="font-size: 4em;"></i>
+                        <h3>Acceso Remoto</h3>
+                        <p style="font-size: 1.4em;">Puedes accedes a nuestras clases y contenidos en cualquier lugar que te encuentres a cualquier hora</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <main id="main-content">
+      <div class=" container col-xl-11" id="colum1">
+        <div class="row my-5 learn">
+          <div class="col-5 m-auto learn-content ">
+            <h2>Aprende Lenguajes de Programación</h2>
+            <p>Los lenguajes de programacion estan diseñados para describir el conjunto de acciones consecitivas de un equipo debe de ejecutar. Pueden estar destinados a aplicaciones cientificas, aplicaciones de negocios, inteligencia artificial, programacion de sistemas y mucho más.</p>
+          </div>
+          <div class="col-7">
+           <img class="img-fluid d-block"  src="public/img/pexels-photo-160107.jpeg" alt="learn">
+          </div>
+        </div>
+      
+        
+        
+           <div class="container-carrusel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              
+               
+              </div>
+              <div class="carousel-item">
+                
+              </div>
+              <div class="carousel-item">
+              
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        
+       
+    
+
+        <!--features-->
+
+        <div class="title">
+           <h2 class="text-center">Cursos y Diplomados</h2>
+        </div>
+        <div class="row">
+         
+            <div class="col-sm col-md col-lg">
+              <div class="card aliniar" style="width: 18rem;">
+              <img src="public/img/numbers-money-calculating-calculation.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Contabilidad con Excel</h5>
+                <p class="card-text">LLeva acabo la contabilidad de tu negocio u empresa con este curso que te permitira gestionar la parte monetaria contable de tus finanzas o ingresos netos.</p>
+                <a href="#modal" data-toggle="modal" class="btn btn-primary">Ver Información</a>
+              </div>
+            </div>
+            <!--Modal emergente-->
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Curso de ........</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h3>Contenido Programatico</h3>
+                          <div id="accordion">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Unidad #1
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                  <ol class="px-4">
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                  </ol>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Unidad #2
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                  <ol class="px-4">
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                  </ol>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                   Unidad #3
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                  <ol class="px-4">
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                    <li>Topico #1</li>
+                                  </ol>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <h2>Este curso va dirigido para:</h2>
+                          <br>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quasi non facere delectus similique adipisci molestias excepturi necessitatibus quas dicta cumque quam vel sapiente saepe porro, dolores libero eveniet quae.</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+            <div class="col-sm col-md col-lg">
+              <div class="card aliniar" style="width: 18rem;">
+                <img src="public/img/pexels-photo-270632.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Programacion web</h5>
+                  <p class="card-text">Crea y diseñe su propio sitio web de manera profesional con las tecnologias web mas demandadas en las industrias hoy en dia. Logra perfeccionar la imagen de tu empresa creando un sitio web dinamico.</p>
+                  <a href="#" class="btn btn-primary">Ver Información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm col-md col-lg">
+              <div class="card aliniar" style="width: 18rem;">
+                <img src="public/img/startup-photos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gestión de Proyectos</h5>
+                  <p class="card-text">Si tienes un plan o un proyecto en mente con este curso lograras llevar a cabo paso a paso esas ideas de una organizada y estructuradas para lograr los objetivos que propongas.</p>
+                  <a href="#" class="btn btn-primary">Ver Información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm col-md col-lg">
+              <div class="card aliniar" style="width: 18rem;">
+                <img src="public/img/security-protection-anti-virus-software-60504.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Seguridad Informatica</h5>
+                  <p class="card-text">Es Importante proteger la seguridad de tus datos personales y los de tu empresa. aprende a como evitar fraudes y vulnerabilidades a tus sistemas propios o los de una empresa con este curso.</p>
+                  <a href="#" class="btn btn-primary">Ver Información</a>
+                </div>
+              </div>
+            </div>
+        </div>
+       </div>
+    </main>  
+
+    
+    
+    
+    <!-- Nosotros -->
+    
+      <section class="nosotros">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+                <div class="container-fluid">
+                    <h1 class="historia">Nuestra Historia</h1>
+                    <div class="contenidos-nosotros">
+                      <p>Cursos Online es una organización educativa con ánimo de lucro fundada por Adrian Mejia que ofrece cursos online masivos y abiertos (MOOCs).</p>
+                      <p>fue creado en octubre de 2014. Su fundador, Adrian Mejia, es un desarrollador de software quien ideó Cursos Online como una manera de simplificar el avance de un estudiante en cualquier area de sus primeros pasos hasta estar preparado para un trabajo.</p>
+                      <h2>Mision</h2>
+                      <p>Mejorar la calidad de vida y desarrollo de las personas a traves de una formacion y aprendizaje completo de forma online, utilizando las nuevas tecnologias de la informacion. Ademas colaborar a con la comunidad estudiantil aportando temas de interes educativo. </p>
+                      <br>
+                      <h2>Vision</h2>
+                      <p>Ser lideres en iberoamerica entre las empresas que colaboran en la formacion y capacitacion de profesionales aptos para enfrentar cualquier problema o proyecto laboral que se les requiere, en forma innovadora y haciendo uso de las nuevas tecnologias de la informacion.</p>
+                      
+
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-6 col-sm-12 imagen">
+              
+                <img class="col-xl-12 col-md-12 img-fluid" src="public/img/pexels-photo-1181304.jpeg" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    
+
+    <!-- form contact-->
+
+    <section class="contacto">
+      <div class="container heading text-center">
+        <h1 class="text-center font-weight-bolf">Contacto</h1>
+        <br>
+        <div class="container">
+          <div class="row ">
+              <div class="col-lg-9 col-md-9 col-10 offset-2 offset-md-2 col-1">
+
+                <form action=""  name="formulario" method="post">
+                  <div class="form-group">            
+                    <input type="text" class="form-control" required autocomplete="off" placeholder="Enter your name" name="nombre">
+                  </div>
+                    <div class="form-group">                  
+                      <input type="" class="form-control" placeholder="Enter your email" required autocomplete="off"  name="email">
+                    </div>
+
+                    
+                 
+                      <div class="form-group">  
+                        <input type="text" class="form-control" placeholder="Enter your number" required autocomplete="off"  name="numero">
+                      </div>
+
+                      <div class="form-group row">
+                        <input  type="text" class="form-control col-5 aliniar" placeholder="Enter your country" required autocomplete="off"  name="pais">
+                        <input  type="text" class="form-control col-6 aliniar" placeholder="Enter your address" required autocomplete="off"  name="direccion">
+                      </div>
+                      
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Enter your messange" rows="4"  name="mensaje"></textarea>
+                      </div>
+
+                    <div class="d-flex ">
+                      <button type="submit" name="enviar" class="btn btn-primary col-4">Enviar</button>
+                    </div>
+                  
+                </form>
+
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+  
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Cursos Online</h3>
+            <p> <strong>IMPORTANTE</strong> Cursos Online es Solo un proyecto estudiantil no Oficial esta pagina no es Oficial de alguna institucion en particular</p>
+          </div>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Ubicanos</h4>
+              <p>
+                Av 34 Sector los Samanes<br>
+                Ciudad Ojeda Estado Zulia<br>
+                Venezuela<br>
+                <strong>Telefono:</strong> 0265-0000000<br>
+                <strong>Email:</strong> example@gmail.com<br> 
+                <strong>Fax:</strong> 00000000<br>    
+                <a href="#" style="text-decoration: none;"><span><i class="fab fa-icono fa-facebook" style="color: #fff;"></i></span></a>     
+                <a href="#" style="text-decoration: none;"><span><i class="fab fa-icono fa-instagram" style="color: #fff;"></i></span></a>
+                <a href="#" style="text-decoration: none;"><span><i class="fab fa-icono fa-twitter" style="color: #fff;"></i></span></a>
+              </p>
+        
+              
+            </div>
+            <div class="col-lg-3 col-md-6 footer-nuevos">
+              <h4>Enterate de los Proximos Cursos</h4>
+              <p>Quieres seguir informado de nuestros nuevos cursos y promociones entonces suscribete! 100% libre de "SPAM"</p>
+              <form action=""method="post">
+                <input type="email" name="email"><input type="submit" value="Suscribirte" >
+              </form>
+
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copy text-center">
+      &copy; Copyright <strong>Adrian Mejia</strong>. Todos los Derechos reservados
+      </div>
+    </div>
+
+   </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="controllers/jquery-3.4.1.min.js"></script>
+   <script src="controllers/popper.js"></script>
+   <script src="controllers/bootstrap.min.js"></script>
+  </body>
+</html>
